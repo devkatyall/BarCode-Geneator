@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Code Generator</title>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/jsbarcode/3.11.6/JsBarcode.all.min.js"></script>
+    <script defer src="c2.js"></script>
+    <link rel="stylesheet" href="c2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="title">
+       <h1><span>BarCode Generator</span></h1>
+    </div>
+    <section class="sec1">
+        <div class="container">
+            <div class="form-control">
+                <input class="input input-alt" id="command" placeholder="Enter Your Input" type="text">
+                <span class="input-border input-border-alt"></span>
+            </div>
+            <div class="barcode"><svg id="barcode"></svg></div>
+            <div id="btn"><button class="btn"><span>Generator Barcode</span></button></div>
+        </div>
+    </section>
+</body>
+</html>
